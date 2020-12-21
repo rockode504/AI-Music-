@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Music Player</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="https://cdn.pixabay.com/photo/2015/03/30/12/37/pioneer-698515_960_720.jpg">
+<center>
+<h3 class="btn btn-info heading">AI Music Player
+<br>
+<span class="note">Move your left wrist up and down for increasing and decreasing the volume. 
+Move your right wrist up and down for increasing and decreasing the speed. Enjoy!</span>
+</h3>
+<div class="speedDiv">
+<img id="speedImage" src="https://i.pinimg.com/originals/6b/2f/1c/6b2f1c5dba92f48a53020755a9887e06.gif">
+<br>
+<h3 class="btn btn-info" id="speed">Speed</h3>
+</div>
+<div class="volumeDiv">
+<img id="volumeImage" src="https://i.pinimg.com/originals/6b/2f/1c/6b2f1c5dba92f48a53020755a9887e06.gif">
+<br>
+<h3 class="btn btn-info" id="volume">Volume</h3>
+</div>
+<br>
+<br>
+<button onclick="play();" class="btn btn-info playButton">Play</button>
+<button onclick="pause();" class="btn btn-info playButton">Pause</button>
+<button onclick="playFromBeginning();" class="btn btn-info playButton">Play From Beginning</button>
+</center>
+<script src="main.js"></script>
+</body>
+</html>

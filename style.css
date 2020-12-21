@@ -1,0 +1,64 @@
+body
+{
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+.note
+{
+    font-size: 15px;
+    color: black;
+}
+
+.speedDiv
+{
+    float: left;
+}
+
+#speedImage
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed
+{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.volumeDiv
+{
+    float: right;
+}
+
+#volumeImage
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#volume
+{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.playButton
+{
+    width: 350px;
+    font-size: 25px;
+}
+
+canvas
+{
+    border: 5px solid darkcyan;
+    border-radius: 20px;
+}
